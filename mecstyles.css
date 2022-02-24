@@ -1,0 +1,94 @@
+html{
+    height: 900.600;
+  }
+  *{
+    border:0px;
+  }
+
+  td {
+    width: 250px;
+    padding: 10px;
+  }
+  .tdi{
+    width:75%;
+    
+  }
+  .login
+{
+  position: absolute;
+  top: 400px;
+  left:500px;
+  padding: 30px;
+  border-radius:25px;
+  background-color:whitesmoke;
+  
+}
+input{
+  border:1px solid rgb(11, 11, 94);
+  padding: 5px;
+  border-radius: 2px;
+  width: 100%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+ 
+ }
+ textarea {
+  border:1px solid rgb(11, 11, 94);
+  padding: 4px;
+  border-radius: 2px;
+  width:100%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+  font-family: sans-serif;
+  
+
+}  
+.tdi textarea:focus{
+  outline: 6px;
+  border-color: rgb(61, 185, 61);
+}
+.frm
+  {
+    position:absolute;
+    top:60px;
+    left:500px;
+    width:30%;
+    border-radius: 10px;
+    background-color: white;
+   
+  }
+  .tdi input:focus{
+    outline: 6px;
+    border-color: rgb(61, 185, 61);
+
+}
+.error
+{
+  font-size:bold;
+  color:red;
+ text-transform: uppercase;
+ text-align: center;
+ font-size: 17px;
+  
+} 
+.sub{
+  background:rgb(129, 30, 30);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  color:#fff;
+  display:block;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 15px 0;
+  margin-top: 20px;
+  margin-left: 300px;
+  width: 50%;
+  font-weight: bold;
+  text-align: center;
+  }
+  
+  .sub :hover{
+  background-color: rgb(7, 7, 65);
+  }
+  

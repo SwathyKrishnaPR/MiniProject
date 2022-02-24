@@ -1,0 +1,115 @@
+html{
+    height: 900.600;
+}
+*{
+    border:0px;
+  }
+  body{
+    background-image:url('../Images1/indeximg\ \(1\).jpg');
+    background-size: cover;
+  }
+  .header{
+    background: rgb(11, 11, 94);
+    padding:30px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    
+    
+}
+.header h2{
+    color:#ffff;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+td {
+    width: 150px;
+}
+.tdi{
+    width:250px;
+    
+}
+  .login
+  {
+    position: absolute;
+    top: 200px;
+    left:600px;
+    padding: 20px;
+    border-radius:25px;
+    background-color:whitesmoke;
+    
+  }
+  input{
+   border:1px solid rgb(11, 11, 94);
+   padding: 10px;
+   border-radius: 2px;
+   width: 100%;
+   padding-bottom: 5%;
+   padding-left: 10%;
+  
+  }
+  textarea{
+    border:1px solid rgb(11, 11, 94);
+    padding: 10px;
+    border-radius: 2px;
+    width:100%;
+    padding-bottom: 8%;
+    padding-left: 10%;
+    font-family: sans-serif;
+    
+
+  }
+  .tdi textarea:focus{
+    outline: 6px;
+    border-color: rgb(61, 185, 61);
+  }
+  .frm
+    {
+      position:absolute;
+      top:50px;
+      left:500px;
+      width:40%;
+      border-radius: 10px;
+      background-color: white;
+     
+    }
+    .tdi input:focus{
+      outline: 6px;
+      border-color: rgb(61, 185, 61);
+  
+  }
+.error
+{
+    font-size:bold;
+    color:red;
+   text-transform: uppercase;
+   text-align: center;
+    
+}  
+
+button{
+  background:rgb(129, 30, 30);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  color:#fff;
+  display:block;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 15px 0;
+  margin-top: 20px;
+  margin-left: 110px;
+  width: 65%;
+  font-weight: bold;
+  text-align: center;
+}
+button:hover{
+  background-color: rgb(7, 7, 65);
+}
+.footer{
+  padding-bottom: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
